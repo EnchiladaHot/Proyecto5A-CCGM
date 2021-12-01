@@ -176,6 +176,11 @@
                                     class="feather-icon"></i><span class="hide-menu">Generar Reporte
                                 </span></a>
                         </li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link"
+                                href="Corso_Opciones.aspx" aria-expanded="false"><i data-feather="edit"
+                                    class="feather-icon"></i><span class="hide-menu">Corso Opciones
+                                </span></a>
+                        </li>
 
                       
 
