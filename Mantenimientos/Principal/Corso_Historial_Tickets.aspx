@@ -5,7 +5,11 @@
 
     <form runat="server">
 
-         <div class="row">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+
+                <div class="row">
                     <div class="col-12 mt-4">
                        
                         <div class="card ">
@@ -27,10 +31,7 @@
 
 
          <div class="container-fluid">
-                <!-- ============================================================== -->
-                <!-- Start Page Content -->
-                <!-- ============================================================== -->
-                <!-- basic table -->
+               
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
@@ -138,6 +139,13 @@
                     </div>
                 </div>
         -->
+
+            </ContentTemplate>
+
+
+        </asp:UpdatePanel>
+
+         
     </form>
 
 

@@ -3,8 +3,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="chp_contenido" runat="server">
     <form runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
-         <div class="row">
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                 <div class="row">
                     <div class="col-12 mt-4">
                        
                         <div class="card ">
@@ -46,6 +49,12 @@
                         <!-- Card -->
                     </div>
                 </div>
+
+            </ContentTemplate>
+
+
+        </asp:UpdatePanel>
+        
            
 
     </form>
