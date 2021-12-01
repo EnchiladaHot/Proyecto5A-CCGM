@@ -251,6 +251,9 @@
     <Content Include="Mantenimientos\Estilos\assets\images\users\8.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\agent.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\agent2.jpg" />
+    <Content Include="Mantenimientos\Estilos\assets\images\users\CORSO_UserCH.jpg" />
+    <Content Include="Mantenimientos\Estilos\assets\images\users\CORSO_USERCHEC.jpg" />
+    <Content Include="Mantenimientos\Estilos\assets\images\users\CORSO_UserE.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\d1.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\d2.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\d3.jpg" />
