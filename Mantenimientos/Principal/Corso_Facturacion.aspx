@@ -28,7 +28,13 @@
                             <div class="card-body">
                                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active"> <img class="img-fluid"
+                                        <div class="carousel-item active"> 
+                                               <asp:Button ID="btn_guardar" CssClass="btn btn-info" runat="server" Text="Generar PDF" />
+                                            <asp:Button ID="Button1" CssClass="btn btn-danger" runat="server" Text="Generar XML" />
+                                                
+                                            <img class="img-fluid"
+
+
                                                 src="../Estilos/assets/images/Desarrollo.jpg" alt="First slide"> </div>
                                         
                                     </div>
