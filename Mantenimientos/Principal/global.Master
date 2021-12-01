@@ -89,7 +89,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
-                                <img src="../Estilos/assets/images/users/profile-pic.jpg" alt="user" class="rounded-circle"
+                                <img src="../Estilos/assets/images/users/Previa_Foto.jpg" alt="user" class="rounded-circle"
                                     width="40">
                                 <span class="ml-2 d-none d-lg-inline-block"><span>Bienvenido,</span> <span
                                         class="text-dark">Jaime Garcia</span> <i data-feather="chevron-down"

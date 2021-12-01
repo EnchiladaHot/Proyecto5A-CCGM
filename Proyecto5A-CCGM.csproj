@@ -220,6 +220,7 @@
     <Content Include="Mantenimientos\Estilos\assets\images\product\p2.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\product\p3.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\product\p4.jpg" />
+    <Content Include="Mantenimientos\Estilos\assets\images\QR_DEMO.png" />
     <Content Include="Mantenimientos\Estilos\assets\images\rating\cancel-off.png" />
     <Content Include="Mantenimientos\Estilos\assets\images\rating\cancel-on.png" />
     <Content Include="Mantenimientos\Estilos\assets\images\rating\heart.png" />
@@ -255,6 +256,7 @@
     <Content Include="Mantenimientos\Estilos\assets\images\users\d3.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\d4.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\d5.jpg" />
+    <Content Include="Mantenimientos\Estilos\assets\images\users\Previa_Foto.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\profile-pic-2.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\profile-pic.jpg" />
     <Content Include="Mantenimientos\Estilos\assets\images\users\profile.png" />
@@ -586,6 +588,7 @@
     <Content Include="Mantenimientos\Principal\Corso_Nosotros.aspx" />
     <Content Include="Mantenimientos\Principal\Corso_Opciones.aspx" />
     <Content Include="Mantenimientos\Principal\Corso_Pedir_Ticket.aspx" />
+    <Content Include="Mantenimientos\Principal\Corso_QR.aspx" />
     <Content Include="Mantenimientos\Principal\Corso_Reportes.aspx" />
     <Content Include="Mantenimientos\Principal\Inicio.aspx" />
     <Content Include="stylesheets\stylesheet.css" />
@@ -675,6 +678,13 @@
     </Compile>
     <Compile Include="Mantenimientos\Principal\Corso_Pedir_Ticket.aspx.designer.cs">
       <DependentUpon>Corso_Pedir_Ticket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Principal\Corso_QR.aspx.cs">
+      <DependentUpon>Corso_QR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Principal\Corso_QR.aspx.designer.cs">
+      <DependentUpon>Corso_QR.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mantenimientos\Principal\Corso_Reportes.aspx.cs">
       <DependentUpon>Corso_Reportes.aspx</DependentUpon>
