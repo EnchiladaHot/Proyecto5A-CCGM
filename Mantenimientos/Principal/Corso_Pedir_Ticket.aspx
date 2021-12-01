@@ -120,8 +120,9 @@
 
                                                                 <div class="form-actions">
                                                                     <div class="text-center">
-                                                                        <asp:Button ID="Button3" CssClass="btn btn-info" runat="server" Text="Enviar" />
-
+                                                                       <!-- <asp:Button ID="btn_enviar" OnClick="btn_enviar_Click" CssClass="btn btn-info" runat="server" Text="Enviar" />
+                                                                        -->
+                                                                        <a href="Corso_QR.aspx" class="btn btn-primary">Solicitar Ticket</a>
                                                                     </div>
                                                                 </div>
                                                             </div>

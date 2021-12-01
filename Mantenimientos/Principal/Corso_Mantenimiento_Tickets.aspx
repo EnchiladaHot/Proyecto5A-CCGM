@@ -54,7 +54,7 @@
                                                 <th>Marca</th>
                                                 <th>Creador Por</th>
                                                 <th>Fecha</th>
-                                                <th>Agente</th>
+                                                <th>Cliente</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -65,7 +65,7 @@
                                                 <td>Samsung</td>
                                                 <td>Christian</td>
                                                 <td>01/12/2021</td>
-                                                <td>Jaime Garcia</td>
+                                                <td>Raul</td>
                                             </tr>
                                              <tr>
                                                 <td><span class="badge badge-light-warning">Activo</span></td>
@@ -74,7 +74,7 @@
                                                 <td>LG</td>
                                                 <td>Christian</td>
                                                 <td>02/12/2021</td>
-                                                <td>David Checa</td>
+                                                <td>Raul</td>
                                             </tr>
                                            
                                         </tbody>

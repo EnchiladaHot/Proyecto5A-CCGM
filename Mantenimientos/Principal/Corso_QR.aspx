@@ -54,8 +54,7 @@
                                         <asp:TextBox ID="TextBox5" CssClass="form-control" placeholder="Nombre" runat="server">Electrodomestico: Refrigeradora</asp:TextBox>
 
                                         <asp:TextBox ID="TextBox6" CssClass="form-control" placeholder="Nombre" runat="server">Fecha de Creacion: 2/12/2021</asp:TextBox>
-                                         <asp:TextBox ID="TextBox7" CssClass="form-control" placeholder="Nombre" runat="server">Agente : Jaime Garcia</asp:TextBox>
-
+                                       
                                         <asp:TextBox ID="TextBox8" CssClass="form-control" placeholder="Nombre" runat="server">Total a Cancelar: $45.99</asp:TextBox>
 
                                         <asp:TextBox ID="TextBox9" CssClass="form-control" placeholder="Nombre" runat="server">Numero de Factura: 01</asp:TextBox>

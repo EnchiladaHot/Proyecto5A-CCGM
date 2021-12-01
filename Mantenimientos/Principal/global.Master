@@ -105,11 +105,12 @@
                                         class="svg-icon mr-2 ml-1"></i>
                                     Configuracion de Cuenta</a>-->
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="Inicio.aspx"><i data-feather="power"
+                                <a class="dropdown-item" href="../../Login.aspx"><i data-feather="power"
                                         class="svg-icon mr-2 ml-1"></i>
                                     Salir</a>
+                                <!--
                                 <div class="dropdown-divider"></div>
-                                <div class="pl-4 p-3"><a href="" class="btn btn-sm btn-info">Ayuda</a></div>
+                                <div class="pl-4 p-3"><a href="" class="btn btn-sm btn-info">Ayuda</a></div>-->
                             </div>
                         </li>
                        

@@ -13,5 +13,10 @@ namespace Proyecto5A_CCGM.Mantenimientos.Principal
         {
 
         }
+
+        protected void btn_enviar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
