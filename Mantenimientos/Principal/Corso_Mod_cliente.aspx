@@ -5,7 +5,10 @@
 
 
     <form runat="server">
-        <div class="row">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                 <div class="row">
             <div class="col-12 mt-4">
 
                 <div class="card ">
@@ -126,6 +129,9 @@
 
         </div>
 
+            </ContentTemplate>
+        </asp:UpdatePanel>
+       
 
     </form>
 

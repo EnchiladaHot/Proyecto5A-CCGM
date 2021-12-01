@@ -4,11 +4,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="chp_contenido" runat="server">
      <form runat="server">
 
-          <div class="container-fluid">
-                <!-- ============================================================== -->
-                <!-- Start Page Content -->
-                <!-- ============================================================== -->
-                <!-- basic table -->
+          <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                 <div class="container-fluid">
+               
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
@@ -92,22 +92,10 @@
 
 
 
+            </ContentTemplate>
+        </asp:UpdatePanel>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         
 
          <!--
          <div class="row">

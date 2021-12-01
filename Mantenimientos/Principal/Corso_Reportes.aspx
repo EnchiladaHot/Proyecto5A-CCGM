@@ -4,7 +4,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="chp_contenido" runat="server">
     <form runat="server">
    <div class="row">
-                    <div class="col-12 mt-4">
+       <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+       <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+           <ContentTemplate>
+                 <div class="col-12 mt-4">
                        
                         <div class="card ">
                             <div class="card-header text-white bg-dark mb-3">
@@ -38,19 +41,9 @@
                         <!-- Card -->
                     </div>
                 </div>
-           
-
-
-
-
-
-
-
-
-
-
-
-
+           </ContentTemplate>
+       </asp:UpdatePanel>
+      
     </form>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
