@@ -585,6 +585,7 @@
     <Content Include="Mantenimientos\Principal\Corso_Mod_cliente.aspx" />
     <Content Include="Mantenimientos\Principal\Corso_Nosotros.aspx" />
     <Content Include="Mantenimientos\Principal\Corso_Pedir_Ticket.aspx" />
+    <Content Include="Mantenimientos\Principal\Corso_Reportes.aspx" />
     <Content Include="Mantenimientos\Principal\Inicio.aspx" />
     <Content Include="stylesheets\stylesheet.css" />
     <Content Include="Web.config" />
@@ -666,6 +667,13 @@
     </Compile>
     <Compile Include="Mantenimientos\Principal\Corso_Pedir_Ticket.aspx.designer.cs">
       <DependentUpon>Corso_Pedir_Ticket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Principal\Corso_Reportes.aspx.cs">
+      <DependentUpon>Corso_Reportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Principal\Corso_Reportes.aspx.designer.cs">
+      <DependentUpon>Corso_Reportes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mantenimientos\Principal\global.Master.cs">
       <DependentUpon>global.Master</DependentUpon>

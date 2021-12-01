@@ -5,6 +5,69 @@
 
     <form runat="server">
 
+         <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <!-- basic table -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <!-- Column -->
+                                    
+                                    <!-- Column -->
+                                </div>
+                                <div class="table-responsive">
+                                    <table id="zero_config" class="table table-striped table-bordered no-wrap">
+                                        <thead>
+                                            <tr>
+                                                <th>Estado</th>
+                                                <th>Problema</th>
+                                                <th>ID</th>
+                                                <th>Marca</th>
+                                                <th>Creador Por</th>
+                                                <th>Fecha</th>
+                                                <th>Agente</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="badge badge-light-warning">Activo</span></td>
+                                                <td><a href="" class="font-weight-medium link">Corto Circuito en el Panel</a></td>
+                                                <td><a href="" class="font-bold link">01</a></td>
+                                                <td>Samsung</td>
+                                                <td>Christian</td>
+                                                <td>01/12/2021</td>
+                                                <td>Jaime Garcia</td>
+                                            </tr>
+                                             <tr>
+                                                <td><span class="badge badge-light-warning">Activo</span></td>
+                                                <td><a href="" class="font-weight-medium link">Sobrecalentamiento en Ventilador</a></td>
+                                                <td><a href="" class="font-bold link">02</a></td>
+                                                <td>LG</td>
+                                                <td>Christian</td>
+                                                <td>02/12/2021</td>
+                                                <td>David Checa</td>
+                                            </tr>
+                                          
+                                            
+                                        </tbody>
+                                      
+                                    </table>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        <!--
          <div class="row">
                     <div class="col-12 mt-4">
                        
@@ -21,7 +84,7 @@
                             </div>
                             <div class="table-responsive">
 
-                                <!--Cambiar-->
+                              
                                 <table class="table table-hover">
                                     <thead>
                                         <tr>
@@ -50,10 +113,10 @@
                               
                             </div>
                         </div>
-                        <!-- Card -->
+                      
                     </div>
                 </div>
-
+        -->
     </form>
 
 
