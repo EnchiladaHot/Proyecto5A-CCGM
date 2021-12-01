@@ -584,6 +584,7 @@
     <Content Include="Mantenimientos\Principal\Corso_MiPerfil.aspx" />
     <Content Include="Mantenimientos\Principal\Corso_Mod_cliente.aspx" />
     <Content Include="Mantenimientos\Principal\Corso_Nosotros.aspx" />
+    <Content Include="Mantenimientos\Principal\Corso_Opciones.aspx" />
     <Content Include="Mantenimientos\Principal\Corso_Pedir_Ticket.aspx" />
     <Content Include="Mantenimientos\Principal\Corso_Reportes.aspx" />
     <Content Include="Mantenimientos\Principal\Inicio.aspx" />
@@ -660,6 +661,13 @@
     </Compile>
     <Compile Include="Mantenimientos\Principal\Corso_Nosotros.aspx.designer.cs">
       <DependentUpon>Corso_Nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Principal\Corso_Opciones.aspx.cs">
+      <DependentUpon>Corso_Opciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Principal\Corso_Opciones.aspx.designer.cs">
+      <DependentUpon>Corso_Opciones.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mantenimientos\Principal\Corso_Pedir_Ticket.aspx.cs">
       <DependentUpon>Corso_Pedir_Ticket.aspx</DependentUpon>
