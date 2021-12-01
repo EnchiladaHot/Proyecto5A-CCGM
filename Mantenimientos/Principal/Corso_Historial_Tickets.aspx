@@ -5,6 +5,27 @@
 
     <form runat="server">
 
+         <div class="row">
+                    <div class="col-12 mt-4">
+                       
+                        <div class="card ">
+                            <div class="card-header text-white bg-dark mb-3">
+                                Historial de Tickets solicitados
+                            </div>
+                            <div class="card-body">
+                                <span class="float-left">Dile Adios a los problemas que tengan tus electrodomesticos con Cordillera Solutions , estamos ubicados en Quito para ayudarte en lo que necesites</span>
+                                <br />
+                                
+                                
+                              
+                            </div>
+                        </div>
+                        <!-- TEST -->
+                    </div>
+                </div>
+
+
+
          <div class="container-fluid">
                 <!-- ============================================================== -->
                 <!-- Start Page Content -->

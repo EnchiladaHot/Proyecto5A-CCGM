@@ -10,13 +10,13 @@
                        
                         <div class="card ">
                             <div class="card-header text-white bg-dark mb-3">
-                                Historial de tus Tickets
+                                Lista de Usuarios
                             </div>
                             <div class="card-body">
                                 <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Solicitudes Realizadas</h4>
+                                <h4 class="card-title">Clientes y Usuarios Creados</h4>
                                
                             </div>
                             <div class="table-responsive">
@@ -31,6 +31,7 @@
                                             <th scope="col">Apellido</th>
                                             <th scope="col">Tipo de Servicio</th>
                                               <th scope="col">Cedula</th>
+                                            <th scope="col">Tipo Usuario</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -41,7 +42,7 @@
                                             <td>Lopez</td>
                                             <td>Premium</td>
                                             <td>1725452021</td>
-                                            
+                                            <td>Administrador</td>
                                         </tr>
                                        
                                     </tbody>
