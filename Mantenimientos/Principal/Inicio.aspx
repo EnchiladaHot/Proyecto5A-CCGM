@@ -100,7 +100,7 @@
                               
                             </div>
                         </div>
-                        <!-- Card -->
+                        <!-- TEST -->
                     </div>
                 </div>
                 <a href="Corso_Pedir_Ticket.aspx" class="btn btn-primary">Solicita tu Ticket</a>
