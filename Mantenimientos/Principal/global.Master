@@ -1,0 +1,235 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="global.master.cs" Inherits="Proyecto5A_CCGM.Mantenimientos.Principal.global" %>
+
+<!DOCTYPE html>
+
+ <html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Aqui hacemos que sea Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Aqui va el icono de Corso en la pesta~na del navegador -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../Estilos/assets/images/CorsoIcon.png">
+    <title>Corso Inicio</title>
+    <!-- Aqui los estilos CSS -->
+    <link href="../Estilos/assets/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <link href="../Estilos/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="../Estilos/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    
+    <link href="../Estilos/dist/css/style.min.css" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+  
+    
+   
+    <div id="main-wrapper" data-theme="light" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+        data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
+       
+        <header class="topbar" data-navbarbg="skin6">
+            <nav class="navbar top-navbar navbar-expand-md">
+                <div class="navbar-header" data-logobg="skin6">
+                    
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href=""><i
+                            class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo de Corso -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-brand">
+                        <!-- Logo icon -->
+                        <a href="Inicio.aspx">
+                            <b class="logo-icon">
+                                <!-- Dark Logo icon -->
+                                <img src="../Estilos/assets/images/CorsoIcon.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo icon -->
+                                <img src="../Estilos/assets/images/CorsoIcon.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span class="logo-text">
+                                <!-- dark Logo text -->
+                                <img src="../Estilos/assets/images/CorsoLetras.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo text -->
+                                <img src="../Estilos/assets/images/CorsoLetras.png" class="light-logo" alt="homepage" />
+                            </span>
+                        </a>
+                    </div>
+                   
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
+                            class="ti-more"></i></a>
+                </div>
+               
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                   
+                    <ul class="navbar-nav float-left mr-auto ml-3 pl-1">
+                       
+                        <!-- ============================================================== -->
+                        <!-- Aqui va el texto de la barra de navegacion-->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            
+                                <p>Cordillera Solutions</p>
+                         
+                        </li>
+                       
+                    </ul>
+                   
+                    <ul class="navbar-nav float-right">
+                      
+                        <!-- ============================================================== -->
+                        <!-- Las opciones de Usuario en la barra de perfil-->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img src="../Estilos/assets/images/users/profile-pic.jpg" alt="user" class="rounded-circle"
+                                    width="40">
+                                <span class="ml-2 d-none d-lg-inline-block"><span>Bienvenido,</span> <span
+                                        class="text-dark">Jaime Garcia</span> <i data-feather="chevron-down"
+                                        class="svg-icon"></i></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                                <a class="dropdown-item" href="Corso_MiPerfil.aspx"><i data-feather="user"
+                                        class="svg-icon mr-2 ml-1"></i>
+                                    Mi Perfil</a>
+                                <!--
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="Corso_Mantenimiento_Usuarios.aspx"><i data-feather="settings"
+                                        class="svg-icon mr-2 ml-1"></i>
+                                    Configuracion de Cuenta</a>-->
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="Inicio.aspx"><i data-feather="power"
+                                        class="svg-icon mr-2 ml-1"></i>
+                                    Salir</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="pl-4 p-3"><a href="" class="btn btn-sm btn-info">Ayuda</a></div>
+                            </div>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </nav>
+        </header>
+       
+        <!-- ============================================================== -->
+        <!-- Aqui la barra de Navegacion de la Derecha  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin6">
+            
+            <div class="scroll-sidebar" data-sidebarbg="skin6">
+               
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="Inicio.aspx"
+                                aria-expanded="false"><i data-feather="home" class="feather-icon"></i><span
+                                    class="hide-menu">Inicio</span></a></li>
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">Servicios</span></li>
+
+                        <li class="sidebar-item"> <a class="sidebar-link" href="Corso_Pedir_Ticket.aspx"
+                                aria-expanded="false"><i data-feather="tag" class="feather-icon"></i><span
+                                    class="hide-menu">Solicitar Ticket
+                                </span></a>
+                        </li>
+                        
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="Corso_Horarios.aspx"
+                                aria-expanded="false"><i data-feather="calendar" class="feather-icon"></i><span
+                                    class="hide-menu">Horarios Disponibles </span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="Corso_Historial_Tickets.aspx"
+                                aria-expanded="false"><i data-feather="sidebar" class="feather-icon"></i><span
+                                    class="hide-menu">Mis Solicitudes </span></a></li>
+
+
+                      
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="Corso_Facturacion.aspx"
+                                aria-expanded="false"><i data-feather="file-text" class="feather-icon"></i><span
+                                    class="hide-menu">Generar Factura
+                                </span></a>
+                        </li>
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">Mantenimientos</span></li>
+
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="Corso_Mantenimiento_Usuarios.aspx"
+                                aria-expanded="false"><i data-feather="lock" class="feather-icon"></i><span
+                                    class="hide-menu">Administrar Usuarios
+                                </span></a>
+                        </li>
+                         <li class="sidebar-item"> <a class="sidebar-link sidebar-link"
+                                href="Corso_Lista_Usuarios.aspx" aria-expanded="false"><i data-feather="lock"
+                                    class="feather-icon"></i><span class="hide-menu">Lista de Usuarios
+                                </span></a>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link"
+                                href="Corso_Mantenimiento_Tickets.aspx" aria-expanded="false"><i data-feather="lock"
+                                    class="feather-icon"></i><span class="hide-menu">Administrar Tickets
+                                </span></a>
+                        </li>
+
+                      
+
+                      
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">Extras</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="Corso_Nosotros.aspx"
+                                aria-expanded="false"><i data-feather="edit-3" class="feather-icon"></i><span
+                                    class="hide-menu">Nosotros</span></a></li>
+                       
+                    </ul>
+                </nav>
+                <!-- Aqui termina la Barra de Navegacion por si quieren implementar algo -->
+            </div>
+            
+        </aside>
+        
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Aqui empieza el contenido , osea lo que ya pueden ir colocando   -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <asp:ContentPlaceHolder ID="chp_contenido" runat="server"></asp:ContentPlaceHolder>
+            
+            <!-- El pie de Pagina -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center text-muted">
+                Todos los Derechos Reservados a Corso <a
+                    href="https://wrappixel.com">Cordillera Solutions</a>.
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+            </footer>
+           
+        </div>
+      
+    </div>
+   
+    <!-- Los Jquery usados uwu -->
+    <!-- ============================================================== -->
+    <script src="../Estilos/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../Estilos/assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../Estilos/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <!-- apps -->
+    <script src="../Estilos/dist/js/app-style-switcher.js"></script>
+    <script src="../Estilos/dist/js/feather.min.js"></script>
+    <script src="../Estilos/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../Estilos/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../Estilos/dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <script src="../Estilos/assets/extra-libs/c3/d3.min.js"></script>
+    <script src="../Estilos/assets/extra-libs/c3/c3.min.js"></script>
+    <script src="../Estilos/assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../Estilos/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="../Estilos/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="Estilos/assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="Estilos/dist/js/pages/dashboards/dashboard1.min.js"></script>
+</body>
+
+</html>
